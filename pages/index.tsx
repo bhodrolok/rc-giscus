@@ -25,7 +25,8 @@ export async function getStaticProps({ locale }: GetStaticPropsContext) {
   const localeSuffix = locale === 'en' ? '' : `.${fallbacks[locale] ?? locale}`;
   const t = await getT(locale, 'config');
 
-  const path = join(process.cwd(), `README${localeSuffix}.md`);
+  const translations = join(process.cwd(), 'docs/translations');
+  const path = join(translations, `README${localeSuffix}.md`);
   const readme = readFileSync(path, 'utf-8');
   const contents = readme.split('<!-- configuration -->');
   const [afterConfig] = contents[1].split('<!-- end -->');
