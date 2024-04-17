@@ -1,5 +1,7 @@
 # [giscus][giscus]
 
+## Fork for self-hosting 
+
 A comments system powered by [GitHub Discussions][discussions]. Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances][utterances].
 
 - [Open source][repo]. 🌏
@@ -54,7 +56,7 @@ If you've previously used other systems that utilize GitHub Issues (e.g. [uttera
 - [Tech Debt Burndown Podcast][techdebtburndown]
 - [**and many more!**][giscus-topic]
 
-## Contributing
+## Contributing 
 
 See [CONTRIBUTING.md][contributing]
 
